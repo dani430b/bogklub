@@ -1,0 +1,43 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  background-image: url("background1.jpg");
+}
+
+.container {
+  align-self: center;
+  margin: 0 auto;
+  width: 50%;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  justify-items: center;
+}
+
+.App {
+  grid-column: 1/4;
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+iframe {
+  position:fixed; 
+  top:0; 
+  left:0; 
+  bottom:0; 
+  right:0; 
+  width:100%; 
+  height:100%;
+}
+*/
